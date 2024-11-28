@@ -1,4 +1,4 @@
-# Website Templet using Svelte
+# Website Template using Svelte
 
 this website was made for learning purposes.
 
