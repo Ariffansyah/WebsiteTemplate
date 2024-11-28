@@ -1,0 +1,29 @@
+.h-screen-nav {
+  height: calc(100vh - 48px);
+}
+
+@keyframes SlideInDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.Animate-SlideInDown {
+  animation: SlideInDown 0.5s ease;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Animate-FadeIn {
+  animation: FadeIn 1s ease;
+}
